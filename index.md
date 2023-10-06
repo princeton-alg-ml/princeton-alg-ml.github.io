@@ -18,7 +18,7 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 </ul>
 
 
-If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/0?cid=Y182bHB0ZjJyZTdzdmFzamtrcDJlYmFtOGozY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
 ## October 9, 2023 | Computer Science 302
