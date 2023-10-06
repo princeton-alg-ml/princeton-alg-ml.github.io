@@ -19,9 +19,8 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/0?cid=Y182bHB0ZjJyZTdzdmFzamtrcDJlYmFtOGozY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 # This week's talk
+## October 9, 2023 | Computer Science 302
 
-> October 9, 2023 | Computer Science 302
->
 > **Wenhao Zhan** from Princeton University
 >
 > **Reward-agnostic Fine-tuning: Provable Statistical Benefits of Hybrid Reinforcement Learning**
