@@ -8,13 +8,14 @@ We discuss exciting recent advancements in the areas of algorithm design and the
 
 Talks are held every Monday from 12:30 pm ET to 1:30 pm ET, with food usually served at 12:15 pm ET. It is open to all members of the Princeton community. 
 
-For the 2023-2024 academic year, this seminar is organized by Simran Kaur, Eshaan Nichani, and Jennifer Sun.
+For the 2023-2024 academic year, this seminar is organized by[^1]:
 
 <ul id="namesList">
     <li>Simran Kaur</li>
     <li>Eshaan Nichani</li>
     <li>Jennifer Sun</li>
 </ul>
+[^1]: The ordering on this page is randomized (as opposed to ordering alphabetically).  
 
 If you would like to be notified about future Alg-ML talks, please subscribe to the alg-ml mailing list and google calendar.
 
