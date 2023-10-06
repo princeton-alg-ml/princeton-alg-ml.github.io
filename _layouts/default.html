@@ -40,6 +40,24 @@
 
       {{ content }}
 
+      {% if page.random_list %} <!-- Conditional to check if random_list variable is true for the page -->
+      <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var ul = document.getElementById("namesList");
+          var liArray = Array.from(ul.children);
+  
+          var shuffledArray = liArray.sort(function() {
+              return 0.5 - Math.random();
+          });
+  
+          ul.innerHTML = "";
+          shuffledArray.forEach(function(li) {
+              ul.appendChild(li);
+          });
+      });
+      </script>
+      {% endif %}
+
       </section>
       <footer>
         {% if site.github.is_project_page %}
