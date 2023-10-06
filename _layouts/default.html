@@ -63,7 +63,10 @@
         }
         
         shuffle(liArray);
-        var ul = liArray; 
+        var shuffledArray = liArray;
+        shuffledArray.forEach(function(li) {
+              ul.appendChild(li);
+          });
       });
       </script>
       {% endif %}
