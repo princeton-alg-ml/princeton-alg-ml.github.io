@@ -21,13 +21,11 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## October 9, 2023 | Computer Science 302
+## October 30, 2023 | Computer Science 302
 
-> **Wenhao Zhan** from Princeton University
+> **Manfred Warmuth** from Google Research NYC
 >
-> **Reward-agnostic Fine-tuning: Provable Statistical Benefits of Hybrid Reinforcement Learning**
->
-> This paper studies tabular reinforcement learning (RL) in the hybrid setting, which assumes access to both an offline dataset and online interactions with the unknown environment. A central question boils down to how to efficiently utilize online data collection to strengthen and complement the offline dataset and enable effective policy fine-tuning. Leveraging recent advances in reward-agnostic exploration and model-based offline RL, we design a three-stage hybrid RL algorithm that beats the best of both worlds -- pure offline RL and pure online RL -- in terms of sample complexities. The proposed algorithm does not require any reward information during data collection. Our theory is developed based on a new notion called single-policy partial concentrability, which captures the trade-off between distribution mismatch and miscoverage and guides the interplay between offline and online data.
+> **(Talk details coming soon)**
 
 # Calendar
 <!--<div class="responsive-iframe-container">
