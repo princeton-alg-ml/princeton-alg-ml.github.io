@@ -21,16 +21,15 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## November 13, 2023 | Computer Science 302
+## December 4, 2023 | Computer Science 302
 
-> **Jason Altschuler** from UPenn
+> **Noam Razin** from Tel Aviv University
 >
-> **Acceleration by Stepsize Hedging**
+> **Two Theoretical Analyses of Modern Deep Learning: Graph Neural Networks and Language Model Finetuning**
 >
-> Can we accelerate convergence of gradient descent without changing the algorithm — just by optimizing stepsizes? Surprisingly, we show that the answer is yes. Our proposed Silver Stepsize Schedule optimizes strongly convex functions in $k^{\log_p 2} = k^{0.7864}$ iterations, where $p=1+\sqrt{2}$ is the silver ratio and $k$ is the condition number. This is intermediate between the textbook unaccelerated rate $k$ and the accelerated rate $\sqrt{k}$ due to Nesterov in 1983. The non-strongly convex setting is conceptually identical and leads to an analogously accelerated rate $\epsilon^{-\log_p 2} = \epsilon^{-0.7864}$. We conjecture and provide partial evidence that these rates are optimal among all possible stepsize schedules.
-> 
-> The Silver Stepsize Schedule is an explicit non-monotonic fractal. Why should such stepsizes help? The core intuition is “hedging” between individually suboptimal strategies — short steps and long steps — since bad cases for the former are good cases for the latter, and vice versa. Properly combining these stepsizes yields faster convergence due to the misalignment of worst-case functions. This talk is based on a line of work with Pablo Parrilo that originates from my 2018 Master’s Thesis — which established for the first time that judiciously chosen stepsizes can enable accelerated convex optimization. Prior to this thesis, the only such result was for the special case of quadratics, due to Young in 1953.
-
+> The resurgence of deep learning was largely driven by architectures conceived in the 20th century, trained using labeled data. In recent years, deep learning has undergone paradigm shifts characterized by new architectures and training regimes. Despite the popularity of the new paradigms, their theoretical understanding is limited. In this talk, I will present two recent works focusing on theoretical aspects of modern deep learning. The first work (to appear at NeurIPS 2023) considers the expressive power of graph neural networks, and formally quantifies their ability to model interactions between vertices. As a practical application of the theory, I will introduce a simple edge sparsification algorithm that achieves state-of-the-art results. The second work (under review) identifies a fundamental vanishing gradients problem that occurs when using reinforcement learning to finetune language models. I will demonstrate the detrimental effects of this phenomenon and present possible solutions. Lastly, I will conclude with an outlook on important questions raised by the advent of foundation models and possible tools for addressing them.
+>
+> Works covered in the talk were in collaboration with Nadav Cohen, Tom Verbin, Hattie Zhou, Omid Saremi, Vimal Thilak, Arwen Bradley, Preetum Nakkiran, Joshua Susskind, and Etai Littwin.
 
 # Calendar
 <!--<div class="responsive-iframe-container">
