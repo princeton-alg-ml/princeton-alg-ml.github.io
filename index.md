@@ -21,13 +21,13 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## March 4, 2024 | Computer Science 302
+## March 20, 2024 | Computer Science 402
 
-> **Ahmed Khaled** 
+> **Annie Mardsen** 
 >
-> **Tuning-free stochastic optimization**
+> **Efficient Convex Optimization Requires Superlinear Memory**
 >
-> Hyperparameter tuning is too costly to use in today's large-scale machine learning problems. This creates a need for algorithms that can tune themselves on-the-fly. We formalize the notion of "tuning-free" algorithms that can match the performance of optimally-tuned optimization algorithms up to polylogarithmic factors given only loose hints on the relevant problem parameters. We consider in particular algorithms that can match optimally-tuned Stochastic Gradient Descent (SGD). When the domain of optimization is bounded, we show tuning-free matching of SGD is possible and achieved by several existing algorithms. We prove that for the task of minimizing a convex and smooth or Lipschitz function over an unbounded domain, tuning-free optimization is impossible. We discuss conditions under which tuning-free optimization is possible even over unbounded domains. In particular, we show that the recently proposed DoG and DoWG algorithms are tuning-free when the noise distribution is sufficiently well-behaved. For the task of finding a stationary point of a smooth and potentially nonconvex function, we give a variant of SGD that matches the best-known high-probability convergence rate for tuned SGD at only an additional polylogarithmic cost. However, we also give an impossibility result that shows no algorithm can hope to match the optimal expected convergence rate for tuned SGD with high probability. 
+> Despite convex optimization’s long history of study and despite the importance of designing algorithms which have limited memory footprints, the tradeoff between an optimization algorithm’s use of memory and its performance has remained largely elusive. To what extent do restrictions on the available memory imply worsened performance? In this talk I will discuss some of the first major progress made towards understanding the answer to this question. We will consider the problem of optimizing a convex, d-dimensional, 1-Lipschitz  function to epsilon accuracy, given the ability to query the function value and its sub-gradient at any point in the domain. There are algorithms which can optimize with only d*log(1/epsilon) queries, but require Ω(d^2) bits of memory. On the other hand, gradient descent only needs O(d) bits of memory but requires 1/epsilon^2 queries. This begs the following very fundamental question: To what extent must an algorithm use memory if it hopes to achieve optimal query complexity?  I will discuss my joint work with Vatsal Sharan, Aaron Sidford, and Greg Valiant, which made the first ever progress towards understanding this question by showing a negative result that any algorithm using at most d^(1.25−δ) bits of memory must make at least Ω(d^(1+(4/3)δ )) first-order queries. This work was awarded the COLT 2022 Best Paper Award. 
 
 # Calendar
 <!--<div class="responsive-iframe-container">
