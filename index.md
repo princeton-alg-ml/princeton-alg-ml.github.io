@@ -21,13 +21,13 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## March 25, 2024 | Computer Science 302
+## April 8, 2024 | Computer Science 302
 
-> **Minshuo Chen** 
+> **Naman Agarwal** 
 >
-> **Capitalizing Generative AI: Diffusion Models for High-Dimensional Generative Optimization**
+> **TBD**
 >
-> Deep generative AI, e.g., diffusion models, achieves state-of-the-art performance in various high-dimensional data modeling tasks. In this talk, we delve into the statistical aspects of diffusion models and establish their connection to optimization frameworks. In the first part of the talk, we will understand how diffusion models efficiently model complex high-dimensional data, especially when there are low-dimensional structures in them. We present the first efficient sample complexity bound for diffusion models that depend on the small intrinsic dimension, circumventing the curse of dimensionality. In the second part, we leverage our understanding of diffusion models to introduce a pioneering optimization method termed "generative optimization." Specifically, we harness diffusion models as data-driven solution generators to maximize an unknown objective function. We introduce innovative reward guidance techniques incorporating the target function value to guide the diffusion model. Theoretical analysis in the offline setting demonstrates that the generated solutions yield higher function values on average, with optimality gaps aligning with off-policy bandit suboptimality. Moreover, these solutions maintain fidelity to the intrinsic structures within the training data.
+> 
 
 # Calendar
 <!--<div class="responsive-iframe-container">
