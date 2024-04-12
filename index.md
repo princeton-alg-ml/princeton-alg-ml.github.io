@@ -21,14 +21,14 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## April 8, 2024 | Computer Science 302
+## April 15, 2024 | Computer Science 302
 
-> **Naman Agarwal** 
+> **Zhou Lu** 
 >
-> **Spectral State Space Models**
+> **Online control in population dynamics**
 >
-> This paper studies sequence modeling for prediction tasks with long range dependencies. We propose a new formulation for state space models (SSMs) based on learning linear dynamical systems with the spectral filtering algorithm (Hazan et al. (2017)). This gives rise to a novel sequence prediction architecture we call a spectral state space model.
-Spectral state space models have two primary advantages. First, they have provable robustness properties as their performance depends on neither the spectrum of the underlying dynamics nor the dimensionality of the problem. Second, these models are constructed with fixed convolutional filters that do not require learning while still outperforming SSMs in both theory and practice.The resulting models are evaluated on synthetic dynamical systems and long-range prediction tasks of various modalities. These evaluations support the theoretical benefits of spectral filtering for tasks requiring very long range memory.
+> The study of population dynamics has evolved from early sociological studies  ~\cite{malthus1872essay}, extending into various fields including biology, epidemiology,  evolutionary game theory, and economics. These studies have predominantly focused on population growth and compositionality rather than control. Existing mathematical models for population control are often restricted to specific, noise-free dynamics, while real-world population changes can be complex and adversarial.
+To address this gap, we propose a new framework based on the paradigm of online control. We first characterize a set of marginally stable linear dynamical systems that can be controlled even in the presence of adversarial perturbation. We then give an efficient gradient-based method with optimal regret bounds vs. the optimal linear policy for these systems.  Our empirical evaluations demonstrate the effectiveness of the proposed algorithms in population control models such as SIR and replicator dynamics.
 
 # Calendar
 <!--<div class="responsive-iframe-container">
