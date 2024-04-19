@@ -21,14 +21,14 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## April 15, 2024 | Computer Science 302
+## April 22, 2024 | Computer Science 302
 
-> **Zhou Lu** 
+> **Mufan Li** 
 >
-> **Online control in population dynamics**
+> **The Neural Covariance SDE and Its Limiting Spectrum **
 >
-> The study of population dynamics has evolved from early sociological studies  ~\cite{malthus1872essay}, extending into various fields including biology, epidemiology,  evolutionary game theory, and economics. These studies have predominantly focused on population growth and compositionality rather than control. Existing mathematical models for population control are often restricted to specific, noise-free dynamics, while real-world population changes can be complex and adversarial.
-To address this gap, we propose a new framework based on the paradigm of online control. We first characterize a set of marginally stable linear dynamical systems that can be controlled even in the presence of adversarial perturbation. We then give an efficient gradient-based method with optimal regret bounds vs. the optimal linear policy for these systems.  Our empirical evaluations demonstrate the effectiveness of the proposed algorithms in population control models such as SIR and replicator dynamics.
+> Recent advances in neural network research have predominantly focused on infinite-width architectures, yet the complexities inherent in modelling networks with substantial depth call for a novel theoretical framework. In this presentation, we explore a unique approach to modelling neural networks using the proportional infinite-depth-and-width limit.
+>In fact, naively stacking non-linearities in deep networks leads to problematic degenerate behaviour at initialization. To address this challenge and achieve a well-behaved infinite-depth limit, we introduce a fundamentally novel framework: we treat neural networks as depthwise stochastic processes. Within this framework, the limit is characterized by a stochastic differential equation (SDE) that governs the feature covariance matrix. Notably, the framework we introduced leads to a very accurate model of finite size networks, and the approach yields a natural remedy for vanishing gradients in Transformers. Finally, we will also leverage the SDE structure to derive a limit spectrum result for feature covariance of linear networks. 
 
 # Calendar
 <!--<div class="responsive-iframe-container">
