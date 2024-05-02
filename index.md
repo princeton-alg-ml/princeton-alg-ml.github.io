@@ -21,12 +21,13 @@ For the 2023-2024 academic year, this seminar is organized by[^1]:
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## April 29, 2024 | Computer Science 302
+## May 6, 2024 | Computer Science 105
 
-> **Blake Bordelon** 
+> **Sinho Chewi** 
 >
-> **TBD**
+> **The proximal sampler**
 >
+> I will discuss the proximal sampler, an algorithm for sampling which has led to recent advances for log-concave sampling and is closely related to diffusion models and stochastic localization.
 
 # Calendar
 <!--<div class="responsive-iframe-container">
