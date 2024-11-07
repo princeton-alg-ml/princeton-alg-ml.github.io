@@ -8,26 +8,26 @@ Welcome to the Princeton Alg-ML Seminar Page!
 Alg-ML is a weekly ML theory seminar primarily attended by the research groups of Prof. Sanjeev Arora, Prof. Elad Hazan, Prof. Jason Lee, and Prof. Chi Jin. 
 We discuss exciting recent advancements in the areas of algorithm design and theoretical machine learning. 
 
-Talks are held **every Monday from 12:15 pm ET to 1:15 pm ET**, with food usually served at 12:00 pm ET. It is open to all members of the Princeton community. 
+Talks are held **every Monday from 12:30 pm ET to 1:30 pm ET**, with food usually served at 12:00 pm ET. It is open to all members of the Princeton community. 
 
-For the 2023-2024 academic year, this seminar is organized by[^1]:
+For the 2024-2025 academic year, this seminar is organized by[^1]:
 <ul id="namesList">
-    <li>Simran Kaur</li>
-    <li>Eshaan Nichani</li>
     <li>Jennifer Sun</li>
+    <li>Catherine Cheng</li>
+    <li>Zixuan Wang</li>
 </ul>
 
 
 If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 
 # This week's talk
-## May 6, 2024 | Computer Science 105
+## Nov 11, 2024 | Computer Science 302
 
-> **Sinho Chewi** 
+> **Eshaan Nichani** 
 >
-> **The proximal sampler**
+> **How Transformers Learn Causal Structure with Gradient Descent**
 >
-> I will discuss the proximal sampler, an algorithm for sampling which has led to recent advances for log-concave sampling and is closely related to diffusion models and stochastic localization.
+> **Abstract**: The incredible success of transformers on sequence modeling tasks can be largely attributed to the self-attention mechanism, which allows information to be transferred between different parts of a sequence. Self-attention allows transformers to encode causal structure, which makes them particularly suitable for sequence modeling. However, the process by which transformers learn such causal structures via gradient-based training algorithms remains poorly understood. To better understand this process, we introduce an in-context learning task that requires learning latent causal structure. We prove that gradient descent on a simplified two-layer transformer learns to solve this task by encoding the latent causal graph in the first attention layer. The key insight of our proof is that the gradient of the attention matrix encodes the mutual information between tokens. As a consequence of the data processing inequality, the largest entries of this gradient correspond to edges in the latent causal graph. As a special case, when the sequences are generated from in-context Markov chains, we prove that transformers learn an induction head (Olsson et al., 2022). We confirm our theoretical findings by showing that transformers trained on our in-context learning task are able to recover a wide variety of causal structures. This is joint work with Alex Damian and Jason D. Lee.
 
 # Calendar
 <!--<div class="responsive-iframe-container">
