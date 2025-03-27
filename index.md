@@ -12,9 +12,9 @@ Talks are held **every Monday from 3:00 pm ET to 4:00 pm ET**, with snacks usual
 
 For the 2024-2025 academic year, this seminar is organized by[^1]:
 <ul id="namesList">
-    <li>Gon Buzaglo</li>
-    <li>Catherine Cheng</li>
-    <li>Zixuan Wang</li>
+    <li><a href="https://www.buzaglo.me" target="_blank">Gon Buzaglo</a></li>
+    <li><a href="https://kapikantzari.github.io" target="_blank">Catherine Cheng</a></li>
+    <li><a href="https://ece.princeton.edu/people/zixuan-wang-0" target="_blank">Zixuan Wang</a></li>
 </ul>
 
 
