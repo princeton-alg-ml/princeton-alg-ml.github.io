@@ -5,16 +5,17 @@ random_list: true
 
 Welcome to the Princeton Alg-ML Seminar Page! 
 
-Alg-ML is a weekly ML theory seminar primarily attended by the research groups of Prof. Sanjeev Arora, Prof. Elad Hazan, Prof. Jason Lee, and Prof. Chi Jin. 
+Alg-ML is a weekly ML theory seminar primarily attended by the research groups of Prof. Sanjeev Arora, Prof. Elad Hazan, and Prof. Chi Jin. 
 We discuss exciting recent advancements in the areas of algorithm design and theoretical machine learning. 
 
-Talks are held **every Monday from 3:00 pm ET to 4:00 pm ET**, with snacks usually served at 2:45 pm ET. It is open to all members of the Princeton community. 
+Talks are held **every Tuesday from 12:30 pm ET to 1:30 pm ET**, with snacks usually served at 12:15 pm ET. It is open to all members of the Princeton community. 
 
-For the 2024-2025 academic year, this seminar is organized by[^1]:
+For the 2025-2026 academic year, this seminar is organized by[^1]:
 <ul id="namesList">
     <li><a href="https://www.buzaglo.me" target="_blank">Gon Buzaglo</a></li>
     <li><a href="https://kapikantzari.github.io" target="_blank">Catherine Cheng</a></li>
-    <li><a href="https://ece.princeton.edu/people/zixuan-wang-0" target="_blank">Zixuan Wang</a></li>
+    <li><a href="https://nooraovo.github.io" target="_blank">Shuning Shang</a></li>
+    <li><a href="https://akhaled.net" target="_blank">Ahmed Khaled</a></li>
 </ul>
 
 
