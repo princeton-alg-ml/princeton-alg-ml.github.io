@@ -23,15 +23,14 @@ If you would like to be notified about future Alg-ML talks, please subscribe to 
 
 
 # Calendar
-<!--<div class="responsive-iframe-container">
-    <iframe src="https://calendar.google.com/calendar/embed?src=c_9ed135f8c17bcfcab02997de4a84c4ad922155700daf85b8382cfe350a594147%40group.calendar.google.com&ctz=America%2FNew_York" allowfullscreen></iframe>
-</div>-->
-
-<div style="position: relative; overflow: hidden; width: 100%; padding-top: 56.25%;">
-    <iframe src="https://calendar.google.com/calendar/embed?src=c_9ed135f8c17bcfcab02997de4a84c4ad922155700daf85b8382cfe350a594147%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div style="width: 100%; min-height: 600px; height: 70vh; box-sizing: border-box;">
+    <iframe 
+        src="https://calendar.google.com/calendar/embed?src=c_9ed135f8c17bcfcab02997de4a84c4ad922155700daf85b8382cfe350a594147%40group.calendar.google.com&ctz=America%2FNew_York" 
+        style="border: 0; width: 100%; height: 100%; display: block;" 
+        frameborder="0" 
+        scrolling="no">
+    </iframe>
 </div>
-<!-- <iframe src="https://calendar.google.com/calendar/embed?src=c_9ed135f8c17bcfcab02997de4a84c4ad922155700daf85b8382cfe350a594147%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-width=device-width -->
 
 
 [^1]: The ordering on this page is randomized (as opposed to ordering alphabetically).  
