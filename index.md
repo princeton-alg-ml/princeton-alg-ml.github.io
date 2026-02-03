@@ -13,9 +13,7 @@ Talks are held **every Tuesday from 12:30 pm ET to 1:30 pm ET**, with snacks usu
 For the 2025-2026 academic year, this seminar is organized by[^1]:
 <ul id="namesList">
     <li><a href="https://www.buzaglo.me" target="_blank">Gon Buzaglo</a></li>
-    <li><a href="https://kapikantzari.github.io" target="_blank">Catherine Cheng</a></li>
-    <li><a href="https://nooraovo.github.io" target="_blank">Shuning Shang</a></li>
-    <li><a href="https://akhaled.net" target="_blank">Ahmed Khaled</a></li>
+    <li><a href="https://anand-10-prog.github.io" target="_blank">Anand Brahmbhatt</a></li>
 </ul>
 
 
