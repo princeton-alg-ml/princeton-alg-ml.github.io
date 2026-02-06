@@ -1,34 +1,215 @@
+# Princeton Alg-ML Seminar
+
+Alg-ML is a weekly machine learning theory seminar primarily attended by the research groups of  
+Prof. Sanjeev Arora, Prof. Elad Hazan, and Prof. Boris Hanin.
+
+We discuss recent advances in algorithm design and theoretical machine learning.
+
+**Time:** Tuesdays, 12:15–1:15 pm ET  
+**Lunch:** Usually at 12:00 pm  
+**Location:** CS 402
+
+Open to all members of the Princeton community!
+
+For spring 2026, the seminar is organized by [Gon Buzaglo](https://www.buzaglo.me) and [Anand Brahmbhatt](https://anand-10-prog.github.io).
+
+Subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and the [Google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
+
 ---
-layout: default
-random_list: true
----
 
-Welcome to the Princeton Alg-ML Seminar Page! 
+## Spring 2026 Schedule
 
-Alg-ML is a weekly ML theory seminar primarily attended by the research groups of Prof. Sanjeev Arora, Prof. Elad Hazan, Prof. Boris Hanin and Prof. Chi Jin. 
-We discuss exciting recent advancements in the areas of algorithm design and theoretical machine learning. 
+<div class="talk-list">
 
-Talks are held **every Tuesday from 12:30 pm ET to 1:30 pm ET**, with snacks usually served at 12:15 pm ET. It is open to all members of the Princeton community. 
+<div class="talk">
+  <div class="talk-date">February 10, 2026</div>
 
-For the 2025-2026 academic year, this seminar is organized by[^1]:
-<ul id="namesList">
-    <li><a href="https://www.buzaglo.me" target="_blank">Gon Buzaglo</a></li>
-    <li><a href="https://anand-10-prog.github.io" target="_blank">Anand Brahmbhatt</a></li>
-</ul>
+  <div class="talk-speaker">
+    <strong>Abhishek Panigrahi</strong>
+    <span class="affiliation">Princeton University</span>
+  </div>
 
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
 
-If you would like to be notified about future Alg-ML talks, please subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/listinfo/alg-ml-reading-group) and [google calendar](https://calendar.google.com/calendar/u/1?cid=Y185ZWQxMzVmOGMxN2JjZmNhYjAyOTk3ZGU0YTg0YzRhZDkyMjE1NTcwMGRhZjg1YjgzODJjZmUzNTBhNTk0MTQ3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
-
-
-# Calendar
-<div style="width: 100%; min-height: 600px; height: 70vh; box-sizing: border-box;">
-    <iframe 
-        src="https://calendar.google.com/calendar/embed?src=c_9ed135f8c17bcfcab02997de4a84c4ad922155700daf85b8382cfe350a594147%40group.calendar.google.com&ctz=America%2FNew_York" 
-        style="border: 0; width: 100%; height: 100%; display: block;" 
-        frameborder="0" 
-        scrolling="no">
-    </iframe>
+  <details class="talk-abstract">
+  <summary>See abstract</summary>
+  <div class="abstract-content">
+    <div class="talk-title">
+      <strong>Title:</strong> Making LLMs better teachers
+    </div>
+    <p> <strong>Abstract:</strong>
+      Training capable small language models is a central challenge, yet existing
+      distillation methods treat teachers as static supervision sources. I argue
+      that effective learning depends on how a small model learns from a bigger
+      one and when it learns it. I show that intermediate teacher checkpoints
+      reveal implicit learning trajectories, and that aligning students to these
+      trajectories yields provable sample-complexity benefits.
+    </p>
+  </div>
+</details>
+<div class="talk">
+  <div class="talk-date">February 17, 2026</div>
+  <div class="talk-speaker">
+    <strong>Yotam Alexander</strong>
+    <span class="affiliation">Tel Aviv University</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
 </div>
 
+<div class="talk">
+  <div class="talk-date">February 24, 2026</div>
+  <div class="talk-speaker">
+    <strong>Alessandro Achille</strong>
+    <span class="affiliation">AWS / Caltech</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
 
-[^1]: The ordering on this page is randomized (as opposed to ordering alphabetically).  
+<div class="talk">
+  <div class="talk-date">March 3, 2026</div>
+  <div class="talk-speaker">
+    <strong>Zak Mhammedi</strong>
+    <span class="affiliation">Google</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">March 17, 2026</div>
+  <div class="talk-speaker">
+    <strong>Aaron Roth</strong>
+    <span class="affiliation">University of Pennsylvania</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">March 24, 2026</div>
+  <div class="talk-speaker">
+    <strong>Surbhi Goel</strong>
+    <span class="affiliation">University of Pennsylvania</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">March 31, 2026</div>
+  <div class="talk-speaker">
+    <strong>Matus Telgarski</strong>
+    <span class="affiliation">New York University</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">April 7, 2026</div>
+  <div class="talk-speaker">
+    <strong>Philippe Rigollet</strong>
+    <span class="affiliation">MIT</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">April 14, 2026</div>
+  <div class="talk-speaker">
+    <strong>Alex Meterez</strong>
+    <span class="affiliation">Harvard University</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+<div class="talk">
+  <div class="talk-date">April 21, 2026</div>
+  <div class="talk-speaker">
+    <strong>Dylan Foster</strong>
+    <span class="affiliation">Microsoft Research (NYC)</span>
+  </div>
+  <div class="talk-meta">
+    CS 402 · 12:15–1:15 pm
+  </div>
+  <details class="talk-abstract">
+    <summary>See abstract</summary>
+    <div class="abstract-content">
+      <div class="talk-title"><strong>Title:</strong> TBD</div>
+      <p><strong>Abstract:</strong> TBD</p>
+    </div>
+  </details>
+</div>
+
+</div>
+
