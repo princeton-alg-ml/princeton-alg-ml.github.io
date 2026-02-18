@@ -61,8 +61,8 @@ Subscribe to the [alg-ml mailing list](https://lists.cs.princeton.edu/mailman/li
   <details class="talk-abstract">
     <summary>See abstract</summary>
     <div class="abstract-content">
-      <div class="talk-title"><strong>Title:</strong> TBD</div>
-      <p><strong>Abstract:</strong> TBD</p>
+      <div class="talk-title"><strong>Title:</strong> Implicit Biases in Transformers and SSMs: Distribution Shifts Can Improve Generalization.</div>
+      <p><strong>Abstract:</strong> Modern Large Language Models (LLMs) are typically based on Transformers and/or Structured State Space Models (SSMs), and tend to generalize well even under a distribution shift between training and test data. Conventional wisdom attributes this generalization to implicit biases induced by architectures and the gradient-based algorithms that train them. This talk will describe a series of works theoretically analyzing and empirically evaluating implicit biases in Transformers and SSMs. Beginning with Transformers, I will consider Reinforcement Learning with outcome-based supervision (as in, e.g., DeepSeek-R1), and show that on a graph traversal task, if training data includes simple examples then an implicit bias admits generalization via step-by-step reasoning (Chain-of-Thought), whereas if training data does not include simple examples then learning is intractable. Continuing to SSMs, I will consider a teacher-student setting, and show that if training data is generic then an implicit bias admits generalization, yet there are cleanly labeled examples whose inclusion in training entirely disrupts generalization. These findings carry a counterintuitive message: for both Transformers and SSMs, it is sometimes beneficial to deliberately introduce a distribution shift to training data. Further research into the potential benefits of distribution shifts for Transformers and SSMs may pave the way to more effective curricula for training modern LLMs.</p>
     </div>
   </details>
 </div>
